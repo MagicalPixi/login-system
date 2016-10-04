@@ -11,11 +11,15 @@ var staticConfig = require('koa-static')
 
 var requests = require('koa-log-requests');
 
+var bodyParser = require('koa-bodyparser');
+
 var router = require('./router')
 
 var app = new koa();
 
+
 app.use(convert(requests()));
+
 
 ejsConfig(app,{
   root: path.join(__dirname, 'views'),
@@ -23,10 +27,14 @@ ejsConfig(app,{
   viewExt: 'html',
   cache: false,
   debug: true
-})
+});
 
 app.use(convert(staticConfig('public', {
 })));
+
+
+app.use(bodyParser({
+}));
 
 //简写
 app.use(convert(function *(next){
@@ -38,6 +46,7 @@ app.use(convert(router.routes()))
   .use(convert(router.allowedMethods()));
 
 app.use(convert(function *(next){
+  this.statusCode = 404;
   this.body = 'NOT FOUND'
 }));
 
