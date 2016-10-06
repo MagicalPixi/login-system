@@ -33,7 +33,6 @@ function loadRouter(r,obj,method,prePath){
 }
 
 loadRouter(router,controllerDirObj,'get','/');
-loadRouter(router,apiDirObj,'get','/api/')
-
+loadRouter(router,apiDirObj,'get','/api/');
 
 module.exports = router;

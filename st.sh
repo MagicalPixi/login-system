@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-npm start
+#npm run flow
+
+npm run build
+
+node dist/app.js

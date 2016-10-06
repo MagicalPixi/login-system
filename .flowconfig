@@ -1,0 +1,14 @@
+[ignore]
+.*/public/.*
+.*/dist/.*
+.*/node_modules/.*
+
+
+[libs]
+flow
+
+[options]
+log.file=flowLog/flow.log
+
+module.file_ext=.js
+

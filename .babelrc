@@ -1,0 +1,9 @@
+{
+  "presets":[
+    "es2015-node"
+  ],
+  "plugins":[
+    "transform-flow-strip-types",
+    "transform-decorators-legacy"
+  ]
+}

@@ -13,16 +13,18 @@ var requests = require('koa-log-requests');
 
 var bodyParser = require('koa-bodyparser');
 
-var router = require('./router')
+//var router = require('./router/index2');
+var router = require('./router/');
 
 var app = new koa();
 
 
 app.use(convert(requests()));
 
+console.log('app dirname',__dirname);
 
 ejsConfig(app,{
-  root: path.join(__dirname, 'views'),
+  root: path.join(__dirname, './views'),
   layout: '',
   viewExt: 'html',
   cache: false,

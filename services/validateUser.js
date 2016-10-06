@@ -2,23 +2,24 @@
  * Created by zyg on 16/10/4.
  */
 
-var UserBasicMessage = require('../types/UserBasicMessage')
+var BasicUser = require('../model/BasicUser');
+
 
 /**
  * @param UserBasicMessage obj
  */
-module.exports = (obj)=>{
+module.exports = (obj)=> {
+  log('obj:',obj);
+  
+  obj = Object.assign({},obj);
 
-  return new Promise((r,j)=>{
+  return BasicUser.findOne(obj)
+    .then(result=> {
 
-    if(obj instanceof UserBasicMessage){
+      log('result:', result)
 
-      console.log(obj)
-
-      r(obj.username === obj.ps);
-      
-    }else{
-      throw 'UserBasicMessage!'
-    }
-  })
+      return new Promise(resolve=> {
+        resolve(!!result)
+      })
+    });
 };

@@ -39,3 +39,151 @@
 {"level":"info","message":"on 8999","timestamp":"2016-10-04T16:42:34.286Z"}
 {"level":"info","message":"on 8999","timestamp":"2016-10-04T16:43:25.207Z"}
 {"level":"info","message":"on 8999","timestamp":"2016-10-04T16:43:55.536Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-05T15:53:51.729Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:28:59.810Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:29:31.186Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:29:53.730Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:35:32.785Z"}
+{"level":"info","message":"//index","timestamp":"2016-10-06T08:54:45.045Z"}
+{"level":"info","message":"/api//auth","timestamp":"2016-10-06T08:54:45.049Z"}
+{"level":"info","message":"/api//login","timestamp":"2016-10-06T08:54:45.050Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:54:45.059Z"}
+{"level":"info","message":"//index","timestamp":"2016-10-06T08:55:15.355Z"}
+{"level":"info","message":"/api//auth","timestamp":"2016-10-06T08:55:15.359Z"}
+{"level":"info","message":"/api//login","timestamp":"2016-10-06T08:55:15.359Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:55:15.366Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T08:55:46.865Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T08:55:46.869Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T08:55:46.869Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:55:46.875Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T08:56:17.970Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T08:56:17.975Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T08:56:17.977Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:56:17.984Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T08:56:44.980Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T08:56:44.984Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T08:56:44.985Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:56:44.990Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T08:57:34.863Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T08:57:34.867Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T08:57:34.868Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:57:34.875Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T08:58:12.786Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T08:58:12.792Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T08:58:12.793Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:58:12.803Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T08:58:44.219Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T08:58:44.226Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T08:58:44.227Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T08:58:44.237Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T09:01:37.448Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T09:01:37.452Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T09:01:37.452Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:01:37.461Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:04:45.728Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T09:05:06.450Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T09:05:06.457Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T09:05:06.458Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:05:06.466Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T09:05:15.577Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T09:05:15.580Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T09:05:15.581Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:05:15.587Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T09:07:00.838Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T09:07:00.842Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T09:07:00.843Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:07:00.852Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T09:07:48.097Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T09:07:48.102Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T09:07:48.103Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:07:48.113Z"}
+{"level":"info","message":"/index","timestamp":"2016-10-06T09:07:54.280Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T09:07:54.285Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T09:07:54.286Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:07:54.296Z"}
+{"level":"info","message":"/","timestamp":"2016-10-06T09:08:19.113Z"}
+{"level":"info","message":"/api/auth","timestamp":"2016-10-06T09:08:19.119Z"}
+{"level":"info","message":"/api/login","timestamp":"2016-10-06T09:08:19.119Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:08:19.130Z"}
+{"level":"info","message":"load /","timestamp":"2016-10-06T09:08:29.623Z"}
+{"level":"info","message":"load /api/auth","timestamp":"2016-10-06T09:08:29.629Z"}
+{"level":"info","message":"load /api/login","timestamp":"2016-10-06T09:08:29.630Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:08:29.643Z"}
+{"level":"info","message":"load /","timestamp":"2016-10-06T09:12:08.618Z"}
+{"level":"info","message":"load /api/auth","timestamp":"2016-10-06T09:12:08.622Z"}
+{"level":"info","message":"load /api/login","timestamp":"2016-10-06T09:12:08.622Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T09:12:08.629Z"}
+{"level":"info","message":"load /","timestamp":"2016-10-06T10:30:58.621Z"}
+{"level":"info","message":"load /api/auth","timestamp":"2016-10-06T10:30:58.624Z"}
+{"level":"info","message":"load /api/login","timestamp":"2016-10-06T10:30:58.625Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T10:30:58.632Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T12:33:26.332Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T12:43:52.832Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T12:49:08.882Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T12:53:43.558Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:10:52.957Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:13:01.385Z"}
+{"level":"info","message":"?redirectTo=http%253A%252F%252Flocalhost%253A3000%252F&key=ByFUh6X0","timestamp":"2016-10-06T13:13:09.669Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:13:46.028Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:14:08.762Z"}
+{"username":"ab","ps":"k","level":"info","message":"","timestamp":"2016-10-06T13:14:15.210Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:15:06.289Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:16:09.560Z"}
+{"username":"ab","ps":"k","level":"info","message":"","timestamp":"2016-10-06T13:16:16.599Z"}
+{"level":"info","message":"","timestamp":"2016-10-06T13:16:16.637Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:17:03.365Z"}
+{"username":"ab","ps":"k","level":"info","message":"","timestamp":"2016-10-06T13:17:06.829Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:19:29.077Z"}
+{"username":"kk","ps":"k","level":"info","message":"","timestamp":"2016-10-06T13:19:35.818Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:19:57.629Z"}
+{"username":"kk","ps":"k","level":"info","message":"","timestamp":"2016-10-06T13:20:02.339Z"}
+{"username":"kk","ps":"k","level":"info","message":"","timestamp":"2016-10-06T13:22:01.015Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:22:04.296Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:22:28.812Z"}
+{"username":"kk","ps":"k","level":"info","message":"obj:","timestamp":"2016-10-06T13:25:12.855Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T13:25:12.898Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:26:01.444Z"}
+{"username":"kk","ps":"k","level":"info","message":"obj:","timestamp":"2016-10-06T13:33:24.146Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T13:33:24.189Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:36:24.141Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:37:41.486Z"}
+{"username":"kk","ps":"k","level":"info","message":"obj:","timestamp":"2016-10-06T13:37:52.150Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T13:37:52.197Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:39:53.457Z"}
+{"username":"a","ps":"b","level":"info","message":"obj:","timestamp":"2016-10-06T13:47:21.221Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T13:47:21.271Z"}
+{"username":"a","ps":"b","level":"info","message":"obj:","timestamp":"2016-10-06T13:47:39.649Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T13:47:39.652Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:51:09.121Z"}
+{"username":"a","ps":"b","level":"info","message":"obj:","timestamp":"2016-10-06T13:51:18.698Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T13:51:18.742Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T13:51:34.814Z"}
+{"username":"a","ps":"b","level":"info","message":"obj:","timestamp":"2016-10-06T13:52:05.522Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T13:52:05.568Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:04:12.532Z"}
+{"username":"a","ps":"k","level":"info","message":"obj:","timestamp":"2016-10-06T14:04:23.940Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T14:04:24.002Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:05:26.497Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:10:40.613Z"}
+{"username":"a","ps":"b","level":"info","message":"obj:","timestamp":"2016-10-06T14:10:47.187Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T14:10:47.218Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:24:56.500Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:25:19.913Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:26:26.294Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:26:48.781Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:53:04.729Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:53:19.807Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:53:29.660Z"}
+{"username":"a","ps":"2","level":"info","message":"obj:","timestamp":"2016-10-06T14:54:12.918Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T14:54:12.921Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:54:41.503Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:55:00.387Z"}
+{"username":"a","ps":"2","level":"info","message":"obj:","timestamp":"2016-10-06T14:55:27.622Z"}
+{"level":"info","message":"result:","timestamp":"2016-10-06T14:55:27.624Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:56:06.083Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:56:19.794Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:56:23.113Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:56:29.421Z"}
+{"username":"a","ps":"2","level":"info","message":"obj:","timestamp":"2016-10-06T14:56:39.188Z"}
+{"_id":{"_bsontype":"ObjectID","id":{"0":87,"1":246,"2":102,"3":23,"4":7,"5":3,"6":118,"7":57,"8":176,"9":243,"10":110,"11":43}},"username":"a","ps":"2","level":"info","message":"result:","timestamp":"2016-10-06T14:56:39.190Z"}
+{"level":"info","message":"on 8999","timestamp":"2016-10-06T14:57:02.000Z"}

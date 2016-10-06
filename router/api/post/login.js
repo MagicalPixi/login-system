@@ -1,7 +1,7 @@
 /**
  * Created by zyg on 16/10/4.
  */
-
+//@flow
 var UserBasicMessage = require('../../../types/UserBasicMessage');
 
 var validateUser = require('../../../services/validateUser');
@@ -19,18 +19,25 @@ module.exports = function *() {
   console.log(this.url,this.req.headers.referer);
 
   var urlObj = url.parse(this.req.headers.referer);
-  var query = qs.parse(urlObj.search.replace(/^\?/,''));
 
-  var userMessage = new UserBasicMessage(n,p);
+  if(urlObj.search){
 
-  var r = yield validateUser(userMessage);
+    var query = qs.parse(urlObj.search.replace(/^\?/,''));
 
-  console.log('validate result:',r);
+    var userMessage = new UserBasicMessage(n,p);
 
-  if(r){
-    cache.set(query.key,true);
-    this.redirect(decodeURIComponent(query.redirectTo));
-  }else{
-    this.redirect(this.req.headers.referer);
+    var r = yield validateUser(userMessage);
+
+    console.log('validate result:',r);
+
+    if(r){
+      cache.set(query.key,true);
+
+      this.redirect(decodeURIComponent(query.redirectTo));
+
+    }else{
+
+      this.redirect(this.req.headers.referer);
+    }
   }
 };
