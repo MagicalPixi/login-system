@@ -4,10 +4,11 @@
   "description": "login-system",
   "main": "app.js",
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --display-error-details --progress",
     "build-pro": "webpack  --config webpack.config.pro.js --display-error-details --progress",
-    "start": "node ./dist/app.js"
+    "start": "node ./bin/www.js"
   },
   "repository": {
     "type": "git",
