@@ -1,6 +1,5 @@
 var spawn = require('child_process').spawn;
 var winston = require('winston');
-var koaApp = require('../app');
 
 const __DEBUG__ = process.env.NODE_ENV !== 'product' && process.env.NODE_ENV !== 'production'
 
@@ -28,6 +27,7 @@ global.log = function(){
 
 const port = 8999;
 
+var koaApp = require('../app');
 koaApp.listen(port);
 
 

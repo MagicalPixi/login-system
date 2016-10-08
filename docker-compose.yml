@@ -1,0 +1,8 @@
+web:
+  build: .
+  ports:
+    - 8999:8999
+  links:
+    - mongo
+mongo:
+  image: mongo

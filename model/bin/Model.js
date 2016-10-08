@@ -5,7 +5,12 @@
 
 var MongoClient = require('mongodb').MongoClient;
 
-var url = 'mongodb://localhost:27017/loginSystem';
+var url;
+if(__DEBUG__){
+  url = 'mongodb://localhost:27017/loginSystem';
+}else{
+  url = 'mongodb://mongo/loginSystem';
+}
 
 var connectedDb = null;
 
