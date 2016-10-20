@@ -7,7 +7,7 @@ var cache = require('../../../services/cache')
 module.exports = function *() {
 
   var authId = this.req.query.authId;
-
+  
   var status = 401;
   var body = {
     success:false
