@@ -23,10 +23,10 @@ var saveAuthId = authId => {
   var encode = require('../../../services/utils/encode')
   authId = authId || shortid.generate()
   var redis = require('../../../services/redis')
-  var time = new Date().getTime() + 2 * 3600 * 1000
-  var auth = encode(authId)
-  return redis.set(authId, time.getTime()).then(value => {
-    return {time: time, authId: authId, auth: auth}
+  var expire_time = new Date().getTime() + 2 * 3600 * 1000
+  var auth = encode(authId + expire_time)
+  return redis.set(authId, expire_time).then(value => {
+    return {expire_time: expire_time, authId: authId, auth: auth}
   })
 }
 
