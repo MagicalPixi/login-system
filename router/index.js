@@ -3,36 +3,12 @@
  */
 var path = require('path')
 var router = require('koa-router')();
+var login = require('./api/login')
 
-var _ = require('lodash')
+router.get('/',  function *(next) {
+  yield this.render('index')
+})
 
-var requireDir = require('../services/utils/requireDir')
-
-
-var controllerDir = path.join(__dirname,'./controllers');
-var controllerDirObj = requireDir(controllerDir);
-
-var apiDir = path.join(__dirname,'./api')
-var apiDirObj = requireDir(apiDir);
-
-
-function loadRouter(r,obj,method,prePath){
-  Object.keys(obj).map(key=>{
-    var path = key === 'index' ? '' : key;
-
-    var fn = obj[key];
-
-
-    if(_.isPlainObject(fn)){
-      loadRouter(r,fn,key,prePath);
-    }else{
-      console.log(`load ${method} ${prePath}${path}`);
-      r[method](`${prePath}${path}`,fn);
-    }
-  })
-}
-
-loadRouter(router,controllerDirObj,'get','/');
-loadRouter(router,apiDirObj,'get','/api/');
+router.post('/api/login', login)
 
 module.exports = router;

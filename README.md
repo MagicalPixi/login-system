@@ -1,4 +1,19 @@
-###server
+### server
 
+#### Install submodule
 
-第一次运行，初始化
+```bash
+git submodule update
+```
+
+#### Update submodule
+
+```bash
+cd <submoduledir>
+git pull
+```
+or if your are busy. do like this
+
+```bash
+git submodule foreach git pull origin master
+```
