@@ -25,7 +25,6 @@ global.log = function(){
   }
 });
 
-console.log(__DEBUG__)
 var config = require('../config').create(__DEBUG__)
 var koaApp = require('../app')
 
