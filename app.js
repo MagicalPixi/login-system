@@ -8,9 +8,9 @@ var ejsConfig = require('koa-ejs');
 var staticConfig = require('koa-static')
 var requests = require('koa-log-requests');
 var bodyParser = require('koa-bodyparser');
-var config = require('./config').create(true)
-require('mp_common').create({key: config.common.encode})
 
+var config = require('./config')
+require('mp_common').create({key: config.common.encode})
 
 //var router = require('./router/index2');
 var router = require('./router/');

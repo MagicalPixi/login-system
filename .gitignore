@@ -3,3 +3,5 @@ node_modules/
 .DS_Store
 .idea/
 file.log
+nohup.out
+npm-debug.log

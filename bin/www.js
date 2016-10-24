@@ -25,13 +25,12 @@ global.log = function(){
   }
 });
 
-const port = 8999;
+console.log(__DEBUG__)
+var config = require('../config').create(__DEBUG__)
+var koaApp = require('../app')
 
-var koaApp = require('../app');
-koaApp.listen(port);
-
-
-log(`on ${port}`);
+koaApp.listen(config.loginserver.port);
+log(`on ${config.loginserver.port}`);
 
 //if(__DEBUG__){
 //  var p = spawn('webpack-dev-server',[
