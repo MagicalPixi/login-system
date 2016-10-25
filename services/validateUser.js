@@ -5,7 +5,7 @@
 module.exports = (username, password)=> {
   var common = require('mp_common')
   var config = require('../config')
-  var user = common.request(config.dbserver.domin)('pixi', 'user')
+  var user = common.request(config.dbserver.domain)('pixi', 'user')
   var header = common.header.server(config.common.server_key)
   return user.get({username: username}, header).then(value => {
     var data = value.data
